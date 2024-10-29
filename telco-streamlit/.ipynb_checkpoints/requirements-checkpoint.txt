@@ -1,0 +1,8 @@
+seaborn
+pandas
+scikit-learn
+numpy
+matplotlib
+lightgbm
+shap==0.44.1
+streamlit
