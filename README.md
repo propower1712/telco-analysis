@@ -26,7 +26,8 @@ This project demonstrates a complete Data Science workflow for analyzing and pre
    - **Client Segmentation**: Performed clustering techniques to segment customers based on behavioral and demographic factors.
 
 6. **Evaluation**  
-   Evaluated model performance using metrics such as accuracy, precision, recall, F1-score and ROC AUC score for churn prediction. Clustering quality was assessed to ensure meaningful segmentation.
+   - Evaluated model performance using metrics such as accuracy, precision, recall, F1-score and ROC AUC score for churn prediction.
+   - Clustering quality was assessed to ensure meaningful segmentation.
 
 7. **Deployment**  
    A Streamlit dashboard app was developed for user-friendly interaction and visualization of model results.
