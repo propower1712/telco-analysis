@@ -30,8 +30,6 @@ def shap_plot(customer_data):
 
     # Compute Shapley values for the specific customer
     shap_values = explainer.shap_values(customer_data)
-    print(customer_data.iloc[0].values)
-    print(features)
     shap_df = pd.DataFrame({"Feature" : features, "Values" : customer_data.iloc[0].values, "Shapley_Value" : shap_values[1].tolist()[0]})
     shap_df["Feature"] = shap_df["Feature"] + "=" + shap_df["Values"].astype(str)
     del shap_df["Values"]
